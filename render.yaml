@@ -28,8 +28,6 @@ services:
       # Do not modify this value after it's generated!
       # If you do, you'll lose access to all credentials
       # encrypted with the previous value.
-      - key: N8N_ENCRYPTION_KEY
-        generateValue: true
       - KEY:WEBHOOK_URL
         value:https://n8n-service-tyr3.onrender.com/
 
