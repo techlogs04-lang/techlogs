@@ -28,7 +28,7 @@ services:
       # Do not modify this value after it's generated!
       # If you do, you'll lose access to all credentials
       # encrypted with the previous value.
-      - KEY:WEBHOOK_URL
+      - key:WEBHOOK_URL
         value:https://n8n-service-tyr3.onrender.com/
       # These automatically populate connection details 
       # for the Render Postgres database defined below
